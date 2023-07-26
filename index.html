@@ -64,18 +64,22 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-20">
+                            class="menu menu-sm dropdown-content h-44 md:h-32 right-0 mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-60">                           
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
-                            <li><a>All Fruits</a></li>
+                            <li><a>All Fruits</a></li>         
+                            <div class="absolute flex md:hidden top-32 border-none md:mr-5">
+                                <input class="py-1 px-2 rounded-full" type="text" placeholder="Search here">
+                                <button type="search"><i class="fa-solid fa-magnifying-glass relative right-8"></i></button>
+                            </div>                   
                         </ul>
                     </div>
                 </div>
                 <div class="navbar-end hidden md:flex md:w-2/5">
                     <div class="absolute md:mr-5">
                         <input class="py-2 px-3 rounded-full" type="text" placeholder="Search here">
-                        <i class="fa-solid fa-magnifying-glass relative right-8"></i>
+                        <button type="search"><i class="fa-solid fa-magnifying-glass relative right-8"></i></button>
                     </div>
                 </div>
             </div>
